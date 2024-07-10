@@ -1,8 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    background: 
+    linear-gradient(90deg, white, red, magenta);
+}
+
+
 #hello {
-    font-size: 25px;
+    font-size: 80px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: 500;
+    font-style: oblique;
+    letter-spacing: 1px;
+    color-scheme: black white;
+    color: aqua;
+    text-shadow: 3px 3px 4px red, 1px 4px 6px yellow;
+}
+
+#hello:hover {
+    padding: 10px;
+    background: linear-gradient(45deg, blue, white);
+    color: yellow;
+    text-shadow: 3px 3px, 4px black, 1px 4px 6px darkblue;
 }
